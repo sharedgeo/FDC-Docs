@@ -11,7 +11,7 @@
 }
 
 .icon-home {
-    color: #FF6D00; /* Safety Orange */
+    color: #ff6200; /* Safety Orange */
 }
 
 /* Change the text color of the left sidebar menu */
@@ -28,7 +28,7 @@
 /* Change the background color of the left sidebar menu sublevels*/
 
 .toctree-l2 {
-    background-color:#FFCEB8; /* light orange background */
+    background-color:#FDFBD4; /* Cream background */
 }
 
 /* Change the background and border color for the entire 'note' block */

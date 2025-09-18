@@ -25,7 +25,6 @@ Please email info@sharedgeo.org with any feedback.
 
    EndUsers
    SystemOperators
-   DevGuide
 
 .. toctree::
    :hidden:
