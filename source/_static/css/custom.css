@@ -2,21 +2,39 @@
 
 /* Change the background color of the navigation header */
 .wy-side-nav-search {
-    background:#4791c3 /* FDC Blue*/
+    background:#48A0C3 /* FDC Blue*/
 }
 
 /* Change the background color of the main sidebar menu */
 .wy-nav-side {
-    background: #7cc592; /* Map Green*/
+    background: #abcb8ac7; /* Map Green*/
 }
 
 .icon-home {
-    color: #4791c3; /* FDC Blue */
+    color: #48A0C3; /* FDC Blue */
+}
+
+.home-icon-class svg {
+    fill: #48A0C3; /* Replace with your desired color code */
+}
+.wy-breadcrumbs a:visited {
+    color: #48A0C3; /* Replace with your chosen color code */
+}
+
+.wy-nav-top a.icon-home {
+    color: #4791c3; /* Change to your desired color */
+}
+
+.wy-menu-vertical a:hover {
+    background-color: #85d1f0; /* Change this to your desired hover background color */
+    color: #ffffff; /* Optionally, change the text color on hover */
 }
 
 /* Change the text color of the left sidebar menu */
-.caption span.caption-text {
-    color: #FFFFFF; /* Change to your desired color */
+color: #FFFFFF; /* Black */
+.caption span.caption-text { 
+/*    color: #000000; /* Black */
+    color: #ffffff; /* White */
 }
 .wy-nav-side caption-text a {
     color: #000000;
@@ -24,16 +42,23 @@
 .wy-nav-side p.caption a {
     color: #000000; /* Replace with your desired color (e.g., #FFFFFF for white, or a specific color name) */
 }
+.toctree-l1 > a {
+    color: rgb(0, 0, 0);
+}
+/* Change the background color of the left sidebar menu level 1*/
+.wy-menu > .caption > span.caption-text {
+    color: #ffffff; /* Example for white */
+}
 
 /* Change the background color of the left sidebar menu sublevels*/
 
 .toctree-l2 {
-    background-color:#d1e3f0; /* Light blue background */
+    background-color:#e8f5f6; /* Light blue background */
 }
 
 /* Change the background and border color for the entire 'note' block */
 .admonition.note {
-    background-color: #FDFBD4; /* Cream background */
+    background-color: #f6f5e8; /* Cream background */
 }
 
 /* Change the background color of the 'note' title */
