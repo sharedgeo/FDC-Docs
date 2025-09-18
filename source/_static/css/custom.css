@@ -2,16 +2,16 @@
 
 /* Change the background color of the navigation header */
 .wy-side-nav-search {
-    background: #FFA500; /* Orange*/
+    background: #7cc592; /* Map Green*/
 }
 
 /* Change the background color of the main sidebar menu */
 .wy-nav-side {
-    background:#CC8400 /* Brown */
+    background:#4791c3 /* FDC Blue*/
 }
 
 .icon-home {
-    color: #ff6200; /* Safety Orange */
+    color: #4791c3; /* FDC Blue */
 }
 
 /* Change the text color of the left sidebar menu */
@@ -28,7 +28,7 @@
 /* Change the background color of the left sidebar menu sublevels*/
 
 .toctree-l2 {
-    background-color:#FDFBD4; /* Cream background */
+    background-color:#d1e3f0; /* Light blue background */
 }
 
 /* Change the background and border color for the entire 'note' block */
@@ -38,17 +38,17 @@
 
 /* Change the background color of the 'note' title */
 .admonition.note > .admonition-title {
-    background-color: #471700;  /* dark brown  */
+    background-color: #1c3f56;  /* dark blue  */
 }
 
 /* Change the background and border color for the entire 'hint' block */
 .admonition.hint {
-    background-color: #FFAF8A /* Medium Orange background */
+    background-color: #e9f2f8 /* Light Blue */
 }
 
 /* Change the background color of the 'note' title */
 .admonition.hint > .admonition-title {
-    background-color: #471700;  /* dark brown  */
+    background-color: #4992c4;  /* medium blue  */
 }
 
 .lightbox-overlay {

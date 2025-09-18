@@ -26,9 +26,9 @@ Please email info@sharedgeo.org with any feedback.
    EndUsers
    SystemOperators
    DevGuide
-   About
    FAQ
-   
+   About
+      
 .. Indices and tables
 .. ==================
 
