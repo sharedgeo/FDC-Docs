@@ -9,7 +9,7 @@
 project = 'Field Data Collection'
 copyright = '2025, SharedGeo'
 author = 'SharedGeo'
-release = '0.1'
+release = '1.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -48,4 +48,4 @@ import sphinx_rtd_theme
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 html_css_files = ['css/custom.css']
-
+html_js_files = ['js/custom.js']
