@@ -21,23 +21,11 @@ Please email info@sharedgeo.org with any feedback.
 .. toctree::
    :hidden:
    :maxdepth: 99
-   :caption: User Guides
+   :caption: Guides
 
    EndUsers
    SystemOperators
-
-.. toctree::
-   :hidden:
-   :maxdepth: 99
-   :caption: Open Source Developers
-
    DevGuide
-   
-.. toctree::
-   :hidden:
-   :maxdepth: 99
-   :caption: Learn More
-   
    About
    FAQ
    
