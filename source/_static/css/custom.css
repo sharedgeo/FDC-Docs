@@ -2,12 +2,12 @@
 
 /* Change the background color of the navigation header */
 .wy-side-nav-search {
-    background: #7cc592; /* Map Green*/
+    background:#4791c3 /* FDC Blue*/
 }
 
 /* Change the background color of the main sidebar menu */
 .wy-nav-side {
-    background:#4791c3 /* FDC Blue*/
+    background: #7cc592; /* Map Green*/
 }
 
 .icon-home {
