@@ -41,7 +41,7 @@ html_theme_options = {
     'collapse_navigation': True
 }
 
-html_favicon = "_static/fdc.icon.ico"
+html_favicon = "_static/fdc_icon.ico"
 # -- Options for the HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 

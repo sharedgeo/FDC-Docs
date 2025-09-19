@@ -107,3 +107,8 @@ img {
     border-width: 2px;
     border-color: black;
 }
+
+img {
+    max-width: 20%; /* Adjust this percentage as needed */
+    height: auto; /* Maintain aspect ratio */
+}

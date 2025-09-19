@@ -6,29 +6,28 @@
 Field Data Collection Documentation
 ===================================
 
-FuzionView software aggregates all utility location data (GIS) into a single map “on the fly”. Engineering design teams, facility operators, locators, excavators and homeowners have an unprecedented view of the underground utilities at the site, providing the opportunity for a safer, more efficient approach to each project. FuzionView maps supplement the 811 ticket and are limited to the excavation area, plus a 100 foot buffer. Facility operators can quickly share their datasets and have control to disable access at any time. Map and feature data is only available to authorized users.
+Field Data Collection (FDC) is designed to support locators, engineers, excavators, and emergency response personnel with critical information on the dig site. FDC works in partnership with FuzionView to display 811 dig tickets at your location. While FuzionView is focused on pulling in all the utility infrastructure data available for an 811 ticket, FDC is geared towards collecting new GIS points and supporting documentation and sending them back to the data providers. FDC supports critical process such as reporting a strike when a dig incident occurs. To get started, select the documentation that is right for you:
 
-Select the documentation that is right for you:
+| :ref:`Getting Started` Quick Start Guide for all new users.
+| :ref:`FDC Toolset` Guide for locators, excavators, engineers, and emergency response personnel.
+| :ref:`System Admin` Guide 811 system operator IT/GIS staff to implement and administer FDC.
+| :ref:`Guide to FDC-Demo` Guide to leveraging the FDC open source product.
 
-**End Users** Guide for homeowners, locators, excavators, and design Engineers.
+For more information about our FuzionView product checkout the website `here <https://uumpt.sharedgeo.net/docs/ticketviewer.html>`_
 
-**System Operators** Guide 811 system operator IT/GIS staff to implement and administer FDC.
-
-**Developers** Guide to leveraging the FDC open source product.
-
-Please email info@sharedgeo.org with any feedback.
+Please email info@sharedgeo.org with your feedback.
 
 .. toctree::
    :hidden:
    :maxdepth: 99
    :caption: Guides
 
-   EndUsers
-   SystemOperators
+   GettingStarted
+   FDCToolset
+   SystemAdmin
    DevGuide
-   FAQ
    About
-      
+
 .. Indices and tables
 .. ==================
 

@@ -1,11 +1,15 @@
 Guide to FDC-Demo
-=====================
+===================
 
 This repository contains the files needed to build a Docker image to run the FDC demonstration / development build. The configuration here is simplified for ease of getting started in a trusted environment and is not meant for production use. In particular, be aware that default, insecure passwords are used and that the PostgreSQL database is ephemeral as it lives inside the container.
 
 The FDC-Demo comes with test configuration. These are "fake" user data and tickets with fictional features that are located in South-Eastern Dakota County, MN. It also comes with a "fake" ticket loader that randomly generates tickets at your current location.
 
 The general structure of the FDC-Demo is to build one image that contains everything (see Dockerfile) and then use that image to start several containers from that image that encapsulate each part of FFDC (as defined in docker-compose.yml). Since the target for FDC-Demo is demonstration and development, it is assumed that all of the containers will likely be running on one machine and sharing one image keeps the actual on-disk footprint smaller.
+
+.. caution::
+   For the most recent version of this documentation, you must use the `FDC-Demo <https://github.com/sharedgeo/FDC-Demo>`_ site.
+
 
 Containers
 -----------
