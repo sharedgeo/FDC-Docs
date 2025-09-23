@@ -85,17 +85,9 @@ There is also a link to download the GIS data in a GeoJSON file format.
 
 
 
-Last Updated: |today|
-
-
-Snippets
-* Upload File
-* Download Features
-* Field Strike
-* Information Resources
-
-
-
 .. caution::
    The FDC application is designed to **supplement** your 811 ticket. Not all utility information has been shared and some features in your ticket boundary may not be shown.
+
+Last Updated: |today|
+
 

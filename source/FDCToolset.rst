@@ -45,6 +45,8 @@ Once you click the **Draw Feature** button you are in the drawing mode. Click at
 * For a **line**, click once, then drag to the end of the line and click again. 
 * For a **polygon**, click at each change in direction and then double click to close the polygon.
 
+To edit the feature you created, double click on it. 
+
 .. figure:: /_static/D-NewFeature1.png
    :alt: Create a polygon
    :class: with-border
@@ -55,7 +57,6 @@ Save Feature
 ^^^^^^^^^^^^^
 
 You can **Clear the drawing** to start over, or if finished, select **Save Feature**. 
-
 .. figure:: /_static/D-SaveFeature.png
    :alt: Save Features
    :class: with-border
