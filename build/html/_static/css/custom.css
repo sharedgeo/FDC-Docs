@@ -36,21 +36,32 @@ color: #FFFFFF; /* Black */
 /*    color: #000000; /* Black */
     color: #ffffff; /* White */
 }
+
 .wy-nav-side caption-text a {
     color: #000000;
 }
 .wy-nav-side p.caption a {
     color: #000000; /* Replace with your desired color (e.g., #FFFFFF for white, or a specific color name) */
 }
+
+.wy-nav-content-wrap .footer {
+    display: none;
+}
+
 .toctree-l1 > a {
     color: rgb(0, 0, 0);
 }
+
 /* Change the background color of the left sidebar menu level 1*/
 .wy-menu > .caption > span.caption-text {
     color: #ffffff; /* Example for white */
 }
 
 /* Change the background color of the left sidebar menu sublevels*/
+
+.bottom-of-page {
+    display: none;
+}
 
 .toctree-l2 {
     background-color:#e8f5f6; /* Light blue background */

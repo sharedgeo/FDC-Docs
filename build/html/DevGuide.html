@@ -9,7 +9,7 @@
   <title>Guide to FDC-Demo &mdash; Field Data Collection 1.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
-      <link rel="stylesheet" type="text/css" href="_static/css/custom.css?v=06ad87af" />
+      <link rel="stylesheet" type="text/css" href="_static/css/custom.css?v=cfb79668" />
 
   
     <link rel="shortcut icon" href="_static/fdc_icon.ico"/>
@@ -23,7 +23,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="About Field Data Collection" href="About.html" />
-    <link rel="prev" title="System Admin" href="SystemAdmin.html" /> 
+    <link rel="prev" title="FDC-Server" href="SystemAdmin.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -49,21 +49,13 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="GettingStarted.html">Getting Started</a></li>
 <li class="toctree-l1"><a class="reference internal" href="FDCToolset.html">FDC Toolset</a></li>
-<li class="toctree-l1"><a class="reference internal" href="SystemAdmin.html">System Admin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SystemAdmin.html">FDC-Server</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Guide to FDC-Demo</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#containers">Containers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#git-notes">Git Notes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#cloning">Cloning</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#pulling-updating">Pulling (Updating)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#pushing">Pushing</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#update-fdc-demo">Update FDC-Demo</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#docker">Docker</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#podman">Podman</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="#accessing-the-fdc-demo">Accessing the FDC-Demo</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#postgresql">PostgreSQL</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#shell-access">Shell Access</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#building">Building</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#starting">Starting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#stopping">Stopping</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#endpoints">Endpoints</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="About.html">About Field Data Collection</a></li>
@@ -94,128 +86,57 @@
              
   <section id="guide-to-fdc-demo">
 <h1>Guide to FDC-Demo<a class="headerlink" href="#guide-to-fdc-demo" title="Link to this heading"></a></h1>
-<p>This repository contains the files needed to build a Docker image to run the FDC demonstration / development build. The configuration here is simplified for ease of getting started in a trusted environment and is not meant for production use. In particular, be aware that default, insecure passwords are used and that the PostgreSQL database is ephemeral as it lives inside the container.</p>
-<p>The FDC-Demo comes with test configuration. These are “fake” user data and tickets with fictional features that are located in South-Eastern Dakota County, MN. It also comes with a “fake” ticket loader that randomly generates tickets at your current location.</p>
-<p>The general structure of the FDC-Demo is to build one image that contains everything (see Dockerfile) and then use that image to start several containers from that image that encapsulate each part of FFDC (as defined in docker-compose.yml). Since the target for FDC-Demo is demonstration and development, it is assumed that all of the containers will likely be running on one machine and sharing one image keeps the actual on-disk footprint smaller.</p>
-<div class="admonition caution">
-<p class="admonition-title">Caution</p>
-<p>For the most recent version of this documentation, you must use the <a class="reference external" href="https://github.com/sharedgeo/FDC-Demo">FDC-Demo</a> site.</p>
-</div>
-<section id="containers">
-<h2>Containers<a class="headerlink" href="#containers" title="Link to this heading"></a></h2>
-<p>FDC-Demo consists of the following containers:</p>
-<blockquote>
-<div><ul class="simple">
-<li></li>
-</ul>
-</div></blockquote>
-<p>FDC-Demo is tested to work with Docker and Podman, and on x86-64 and aarch64 (arm64).</p>
-</section>
-<section id="git-notes">
-<h2>Git Notes<a class="headerlink" href="#git-notes" title="Link to this heading"></a></h2>
-<p>Be aware that this repository uses git submodules to pull in the various parts of FuzionView needed to build the Docker image.</p>
-</section>
 <section id="cloning">
 <h2>Cloning<a class="headerlink" href="#cloning" title="Link to this heading"></a></h2>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="o">--</span><span class="n">recurse</span><span class="o">-</span><span class="n">submodules</span> <span class="n">git</span><span class="nd">@github</span><span class="o">.</span><span class="n">com</span><span class="p">:</span><span class="n">SharedGeo</span><span class="o">/</span><span class="n">FDC</span><span class="o">-</span><span class="n">Demo</span>
-</pre></div>
-</div>
+<blockquote>
+<div><p>git clone –recursive <a class="reference external" href="mailto:git&#37;&#52;&#48;github&#46;com">git<span>&#64;</span>github<span>&#46;</span>com</a>:SharedGeo/FDC-Demo</p>
+</div></blockquote>
 </section>
-<section id="pulling-updating">
-<h2>Pulling (Updating)<a class="headerlink" href="#pulling-updating" title="Link to this heading"></a></h2>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">pull</span> <span class="o">--</span><span class="n">recurse</span><span class="o">-</span><span class="n">submodules</span>
-</pre></div>
-</div>
+<section id="building">
+<h2>Building<a class="headerlink" href="#building" title="Link to this heading"></a></h2>
+<blockquote>
+<div><dl class="simple">
+<dt>docker-compose build</dt><dd><p>or</p>
+</dd>
+</dl>
+<p>podman-compose build</p>
+</div></blockquote>
+<p>Note: The <cite>postgis:17-3.5</cite> image isn’t available on arm64 and needs to be built on that platform.</p>
+<p>Note: podman needs a patch to docker-postgis to find the <cite>postgres:17-bullseye</cite> base image</p>
+<blockquote>
+<div><p>cd vendor/docker-postgis
+git apply ../docker-postgis-use-fully-qualified-repo.patch</p>
+</div></blockquote>
 </section>
-<section id="pushing">
-<h2>Pushing<a class="headerlink" href="#pushing" title="Link to this heading"></a></h2>
-<p>If pushing changes to the FDC-Demo repo, it is recommended to use:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">push</span> <span class="o">--</span><span class="n">recurse</span><span class="o">-</span><span class="n">submodules</span><span class="o">=</span><span class="n">check</span>
-</pre></div>
-</div>
-<p>This will avoid pushing an update to FDC-Demo that requires commits that are not yet pushed to the submodules.</p>
-<p>Make this option the default for this repo:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">config</span> <span class="n">push</span><span class="o">.</span><span class="n">recurseSubmodules</span> <span class="n">check</span>
-</pre></div>
-</div>
-<p>Make this the default option for all repos:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">config</span> <span class="o">--</span><span class="k">global</span> <span class="n">push</span><span class="o">.</span><span class="n">recurseSubmodules</span> <span class="n">check</span>
-</pre></div>
-</div>
-<p>Also, note that because submodules checkout a specific commit hash, the submodules will initially be in a detached head state. Before making changes to a submodule, it is likely a good idea to switch to the main branch.</p>
-<p>Example:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="n">src</span><span class="o">/</span><span class="n">FDC</span><span class="o">-</span><span class="n">Engine</span>
- <span class="n">git</span> <span class="n">checkout</span> <span class="n">main</span>
- <span class="o">...</span> <span class="n">work</span> <span class="o">...</span>
- <span class="n">git</span> <span class="n">add</span> <span class="o">...</span>
- <span class="n">git</span> <span class="n">commit</span>
- <span class="n">git</span> <span class="n">push</span>
-</pre></div>
-</div>
-<p>Then work within that submodule normally, potentially rebuilding and testing the Docker image, and committing and pushing the work to the submodule.</p>
+<section id="starting">
+<h2>Starting<a class="headerlink" href="#starting" title="Link to this heading"></a></h2>
+<blockquote>
+<div><dl class="simple">
+<dt>docker-compose up -d</dt><dd><p>or</p>
+</dd>
+</dl>
+<p>podman-compose up -d</p>
+</div></blockquote>
 </section>
-<section id="update-fdc-demo">
-<h2>Update FDC-Demo<a class="headerlink" href="#update-fdc-demo" title="Link to this heading"></a></h2>
-<p>To update FDC-Demo to use the new version of the submodule git add it and commit, and push.</p>
-<p>Example:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">../..</span> <span class="c1"># back to FDC-Demo</span>
- <span class="n">git</span> <span class="n">add</span> <span class="n">src</span><span class="o">/</span><span class="n">FDC</span><span class="o">-</span><span class="n">Engine</span>
- <span class="n">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s1">&#39;Updating FDC-Engine to include new changes from ...&#39;</span>
- <span class="n">git</span> <span class="n">push</span>
-</pre></div>
-</div>
+<section id="stopping">
+<h2>Stopping<a class="headerlink" href="#stopping" title="Link to this heading"></a></h2>
+<blockquote>
+<div><dl class="simple">
+<dt>docker-compose down</dt><dd><p>or</p>
+</dd>
+</dl>
+<p>podman-compose down</p>
+</div></blockquote>
 </section>
-<section id="docker">
-<h2>Docker<a class="headerlink" href="#docker" title="Link to this heading"></a></h2>
-<p>Building/Running with Docker</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">DOCKER_BUILDKIT</span><span class="o">=</span><span class="mi">1</span> <span class="n">docker</span><span class="o">-</span><span class="n">compose</span> <span class="n">build</span>
-</pre></div>
-</div>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span><span class="o">-</span><span class="n">compose</span> <span class="n">up</span> <span class="o">-</span><span class="n">d</span> <span class="o">&amp;&amp;</span> <span class="n">docker</span><span class="o">-</span><span class="n">compose</span> <span class="n">logs</span> <span class="o">-</span><span class="n">f</span>
-</pre></div>
-</div>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span><span class="o">-</span><span class="n">compose</span> <span class="n">down</span> <span class="o">-</span><span class="n">t0</span>
-</pre></div>
-</div>
-</section>
-<section id="podman">
-<h2>Podman<a class="headerlink" href="#podman" title="Link to this heading"></a></h2>
-<p>Building/Running with Podman</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">podman</span><span class="o">-</span><span class="n">compose</span> <span class="n">build</span>
-</pre></div>
-</div>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">podman</span><span class="o">-</span><span class="n">compose</span> <span class="n">up</span> <span class="o">-</span><span class="n">d</span> <span class="o">&amp;&amp;</span> <span class="n">podman</span><span class="o">-</span><span class="n">compose</span> <span class="n">logs</span> <span class="o">-</span><span class="n">f</span>
-</pre></div>
-</div>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">podman</span><span class="o">-</span><span class="n">compose</span> <span class="n">down</span> <span class="o">-</span><span class="n">t0</span>
-</pre></div>
-</div>
-</section>
-</section>
-<section id="accessing-the-fdc-demo">
-<h1>Accessing the FDC-Demo<a class="headerlink" href="#accessing-the-fdc-demo" title="Link to this heading"></a></h1>
+<section id="endpoints">
+<h2>Endpoints<a class="headerlink" href="#endpoints" title="Link to this heading"></a></h2>
 <blockquote>
 <div><ul class="simple">
-<li><p>Once the containers are running, the FDC web interface will be available on <a class="reference external" href="https://localhost:4443">https://localhost:4443</a>.</p></li>
-<li><p>The default username is <strong>demo</strong> and default password is <strong>fdc</strong>.</p></li>
-<li><p>Right now, the FDC-Admin interface depends on the SharedGeo Keycloak server and requires a Keycloak account.</p></li>
+<li><p><a class="reference external" href="https://localhost:4443/">https://localhost:4443/</a> -&gt; FDC-Client</p></li>
+<li><p><a class="reference external" href="https://localhost:4443/api/">https://localhost:4443/api/</a> -&gt; FDC-Server (and example-client for now)</p></li>
+<li><p><a class="reference external" href="https://localhost:4443/docs/">https://localhost:4443/docs/</a> -&gt; FDC-Docs</p></li>
 </ul>
 </div></blockquote>
-<section id="postgresql">
-<h2>PostgreSQL<a class="headerlink" href="#postgresql" title="Link to this heading"></a></h2>
-<p>The PostgreSQL database inside the container is made available on port 54321. And can be accessed, for example, with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">psql</span> <span class="s1">&#39;host=localhost port=54321 dbname=fdc user=fdc_admin password=password&#39;</span>
-</pre></div>
-</div>
-</section>
-<section id="shell-access">
-<h2>Shell Access<a class="headerlink" href="#shell-access" title="Link to this heading"></a></h2>
-<p>Shell access to the various containers is available via the standard Docker/Podman tools. For example:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span><span class="o">-</span><span class="n">compose</span> <span class="n">exec</span> <span class="n">fdc</span><span class="o">-</span><span class="n">apache</span><span class="o">-</span><span class="n">server</span> <span class="n">bash</span>
-<span class="n">podman</span><span class="o">-</span><span class="n">compose</span> <span class="n">exec</span> <span class="n">fdc</span><span class="o">-</span><span class="n">apache</span><span class="o">-</span><span class="n">server</span> <span class="n">bash</span>
-</pre></div>
-</div>
-<p>Last Updated: Sep 19, 2025</p>
 </section>
 </section>
 
@@ -223,7 +144,7 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="SystemAdmin.html" class="btn btn-neutral float-left" title="System Admin" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="SystemAdmin.html" class="btn btn-neutral float-left" title="FDC-Server" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="About.html" class="btn btn-neutral float-right" title="About Field Data Collection" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 

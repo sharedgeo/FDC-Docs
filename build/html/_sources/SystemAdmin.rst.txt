@@ -1,17 +1,57 @@
-System Admin
-=============
+FDC-Server
+===========
 
-The System Administrator creates user accounts, resets passwords, and helps to troubleshoot issues with access and authorization.
+A Ruby on Rails based api server 
 
-.. figure:: /_static/D-ActiveTicket1.png
-   :alt: FDC Admin Page
-   :class: with-border
-   
-   *FDC Admin Page*
-   
-.. note::
-   This is a placeholder for the Admin Console documentation that will be available in version 2.
+*   Ruby version: 3.2+
+*   Rails version: 7.1.x
+*   Authentication and Authorization: JWT token
 
+Configuration
+^^^^^^^^^^^^^^
 
+*   Rename `env_example` to `.env` and fill in the required environment variables:
+
+    ```bash
+    PG_DB=
+    PG_USER=
+    PG_PASS=
+    PG_HOST=
+    PG_PORT=5432
+
+    OIDC_ISSUER_URL=
+    OIDC_API_AUDIENCE
+    OIDC_JWKS_URL=
+    ```
+
+Development
+^^^^^^^^^^^^
+
+Migrations
++++++++++++
+
+*   `bin/rails db:migrate`
+
+Development Setup
++++++++++++++++++++
+
+1.  Clone the repository.
+2.  Install dependencies: `bundle install`; OS deps include postgresql-client, libpq-dev
+3.  Create the DB; seed some data: `bin/rails db:create db:schema:load db:seed`
+4.  Start the server: `bin/rails server`
+
+Running the client example 
+++++++++++++++++++++++++++++
+
+*   Created with node 24.1.0
+*   `cd client-example`
+*   `npm install`
+*   `npm run dev`
+
+Running tests
++++++++++++++++
+
+*   `RAILS_ENV=test bundle exec rails db:drop db:create db:schema:load`
+*   `bin/rails test`
 
 Last change: |today|

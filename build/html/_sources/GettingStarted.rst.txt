@@ -1,13 +1,9 @@
 Getting Started
 =================
 
-Field Data Collection (FDC) is a map based application that allows you to create, view, and annotate the boundaries for a current or future 811 dig site. The audience for this documentation are excavators, locators, engineers, and emergency response teams who utilize mobile GIS data collection and mapping to perform critical tasks.
+Field Data Collection (FDC) is a map based application that allows you to create, view, and annotate the boundaries for a current or future 811 dig site. The audiences for this documentation includes excavators, locators, engineers, and emergency response teams who may utilize mobile GIS data collection and mapping to perform critical tasks.
 
-When you open FDC for the first time the landing page displays the default OpenStreetMap basemap and these tools:
-* Login
-* Layers
-* Basemaps
-* Zoom to location
+When you open FDC, select the **Log In** button.
 
 .. figure:: /_static/D-LandingPage1.png
    :alt: FDC Landing Page
@@ -18,7 +14,7 @@ When you open FDC for the first time the landing page displays the default OpenS
 Register and Log In
 ^^^^^^^^^^^^^^^^^^^^
 
-To get started, click the **Register** link below the sign in form. Enter your information and select **Register**.
+If this is your first visit to FDC, click the **Register** link below the sign in form. Enter your information and select **Register**.
 
 .. figure:: /_static/D-Register1.png
    :alt: Register
@@ -34,7 +30,15 @@ If successful, you will see a message alerting you to verify your email. You mus
 
    *Verify your email*
 
-Open your email application and find the email from SharedGeo User Accounts. If you don't see it after a few minutes, check your Spam folder. If you can't find it, go back to the Registration popup and select the option to **Resend Link**. Once you get the email, select **Link to e-mail address verification**. You can now **Log In**.
+Open your email application and find the email from SharedGeo User Accounts. If you don't see it after a few minutes, check your Spam folder. If you can't find it, go back to the Registration popup and select the option to **Resend Link**. Once you get the email, select **Link to e-mail address verification**.
+
+.. figure:: /_static/D-VerifyEmail1.png
+   :alt: Verify your email
+   :class: with-border
+
+   *Verify your email*
+
+You can now **Log In**.
 
 .. figure:: /_static/D-Login.png
    :alt: FDC Login
@@ -42,13 +46,18 @@ Open your email application and find the email from SharedGeo User Accounts. If 
 
    *FDC Login*
 
-New Tools
-^^^^^^^^^^
-You can see that your Toolset has changed with a link to **Log Out** and three new options:
+Tools
+^^^^^^
+Once you are logged in, you see the FDC Toolset, including 2 inactive options:
 
+* Logout
+* Layers
+* Basemaps
 * Search
 * Edit features
 * Manage documents
+* Add/Edit Feature
+* Strike reporting
 
 .. figure:: /_static/D-LoggedInTools.png
    :alt: Login Enabled Tools
@@ -56,46 +65,7 @@ You can see that your Toolset has changed with a link to **Log Out** and three n
 
    *Login Enabled Tools*
 
-Active 811 ticket
-^^^^^^^^^^^^^^^^^^^
-
-To get started, use **Search** to open an existing 811 Ticket using your ticket number. Once you open your ticket the Edit features and Manage documents tools are available. Information about the ticket is displayed:
-
-* Ticket number
-* Ticket Type
-* Ticket URL
-
-.. figure:: /_static/D-ActiveTicket1.png
-   :alt: Active 811 Ticket
-   :class: with-border
-
-   *Active 811 Ticket*
-
-Bookmarks
-^^^^^^^^^^
-You can add a **bookmark** to this ticket by clicking the **star** icon. This adds it to your **My Tickets** list where you can save tickets, features, and documents for easy access. 
-
-There is also a link to download the GIS data in a GeoJSON file format. 
-
-.. figure:: /_static/D-MyTickets1.png
-   :alt: Bookmarked Ticket
-   :class: with-border
-
-   *Bookmarked Ticket*
-
-
+.. caution::
+   The FDC application is designed to **supplement** your 811 ticket. Not all utility information has been shared and some features that exist inside your ticket boundary may not be shown.
 
 Last Updated: |today|
-
-
-Snippets
-* Upload File
-* Download Features
-* Field Strike
-* Information Resources
-
-
-
-.. caution::
-   The FDC application is designed to **supplement** your 811 ticket. Not all utility information has been shared and some features in your ticket boundary may not be shown.
-

@@ -10,7 +10,7 @@ Field Data Collection (FDC) is designed to support locators, engineers, excavato
 
 | :ref:`Getting Started` Quick Start Guide for all new users.
 | :ref:`FDC Toolset` Guide for locators, excavators, engineers, and emergency response personnel.
-| :ref:`System Admin` Guide 811 system operator IT/GIS staff to implement and administer FDC.
+| :ref:`FDC-Server` Guide 811 system operator IT/GIS staff to implement and administer FDC.
 | :ref:`Guide to FDC-Demo` Guide to leveraging the FDC open source product.
 
 For more information about our FuzionView product checkout the website `here <https://uumpt.sharedgeo.net/docs/ticketviewer.html>`_
