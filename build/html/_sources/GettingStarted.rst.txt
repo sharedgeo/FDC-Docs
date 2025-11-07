@@ -1,9 +1,10 @@
 Getting Started
 =================
 
-Field Data Collection (FDC) is a map based application that allows you to create, view, and annotate the boundaries for a current or future 811 dig site. The audiences for this documentation includes excavators, locators, engineers, and emergency response teams who may utilize mobile GIS data collection and mapping to perform critical tasks.
+Field Data Collection (FDC) is a map based application that allows you to create, view, and annotate the boundaries for a current or future 811 dig site. The audience for this documentation includes excavators, locators, engineers, and emergency response teams who may utilize mobile GIS data collection and mapping to perform critical tasks.
 
 When you open FDC, select the **Log In** button.
+.. update all images
 
 .. figure:: /_static/D-LandingPage1.png
    :alt: FDC Landing Page
@@ -54,10 +55,11 @@ Once you are logged in, you see the FDC Toolset, including 2 inactive options:
 * Layers
 * Basemaps
 * Search
-* Edit features
-* Manage documents
+* *Edit features*
+* *Manage documents*
 * Add/Edit Feature
 * Strike reporting
+* Documentation
 
 .. figure:: /_static/D-LoggedInTools.png
    :alt: Login Enabled Tools
