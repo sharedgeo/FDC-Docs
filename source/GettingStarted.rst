@@ -60,7 +60,9 @@ Once you are logged in, you see the FDC Toolset, including 2 inactive options:
 * Strike reporting
 * Documentation
 
-In the bottom left is a button to **Zoom to Location** and in the bottom right your **Latitude and Longitude** are displayed.
+* In the bottom left is a button to **Zoom to Location**. 
+* In the bottom right the **Latitude and Longitude** of your current cursor position is displayed.
+
 .. figure:: /_static/D-LoggedInTools.png
    :alt: Login Enabled Tools
    :class: with-border
