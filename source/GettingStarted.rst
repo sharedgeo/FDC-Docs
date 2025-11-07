@@ -55,17 +55,17 @@ Once you are logged in, you see the FDC Toolset, including 2 inactive options:
 * Layers
 * Basemaps
 * Search
-* *Edit features*
+* *Add/Edit features*
 * *Manage documents*
-* Add/Edit Feature
 * Strike reporting
 * Documentation
 
+In the bottom left is a button to **Zoom to Location** and in the bottom right your **Latitude and Longitude** are displayed.
 .. figure:: /_static/D-LoggedInTools.png
    :alt: Login Enabled Tools
    :class: with-border
 
-   *Login Enabled Tools*
+   *FDC Tools*
 
 .. caution::
    The FDC application is designed to **supplement** your 811 ticket. Not all utility information has been shared and some features that exist inside your ticket boundary may not be shown.
