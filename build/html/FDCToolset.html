@@ -50,18 +50,22 @@
 <li class="toctree-l1"><a class="reference internal" href="GettingStarted.html">Getting Started</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">FDC Toolset</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#search">Search</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#my-tickets">My Tickets</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#bookmarks">Bookmarks</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#basemaps">Basemaps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#layers">Layers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#zoom-to-location">Zoom to location</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#add-edit-features">Add/Edit Features</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#draw-feature">Draw Feature</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#upload-kml">Upload KML</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#document-manager">Document Manager</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#layers">Layers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#new-811-ticket">New 811 Ticket</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#report-a-field-strike">Report a Field Strike</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#documentation">Documentation</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="SystemAdmin.html">FDC-Server</a></li>
 <li class="toctree-l1"><a class="reference internal" href="DevGuide.html">Guide to FDC-Demo</a></li>
-<li class="toctree-l1"><a class="reference internal" href="DevGuide.html#accessing-the-fdc-demo">Accessing the FDC-Demo</a></li>
 <li class="toctree-l1"><a class="reference internal" href="About.html">About Field Data Collection</a></li>
 </ul>
 
@@ -92,98 +96,151 @@
 <h1>FDC Toolset<a class="headerlink" href="#fdc-toolset" title="Link to this heading"></a></h1>
 <section id="search">
 <h2>Search<a class="headerlink" href="#search" title="Link to this heading"></a></h2>
-<p>To get started, use <strong>Search</strong> to open an existing 811 Ticket by entering the ticket number. Once you open your ticket the two inactive tools - Add/Edit Features and Manage documents tools - are enabled. Information about the ticket is displayed:</p>
+<p>To get started, use <strong>Search</strong> to open an existing 811 ticket by entering the ticket number. Once you open your ticket the two inactive tools - Add/Edit Features and Manage documents tools - are enabled. Information about the ticket is displayed:</p>
 <ul class="simple">
-<li><p>Ticket number</p></li>
+<li><p>Ticket Number</p></li>
 <li><p>Ticket Type</p></li>
 <li><p>Ticket URL</p></li>
 </ul>
-<figure class="align-default" id="id1">
+<p>Scroll down to see the <strong>Features</strong> that were in the 811 ticket. Features you add or edit will also be displayed here.</p>
+<figure class="align-default" id="id3">
 <img alt="Active 811 Ticket" class="with-border" src="_images/D-ActiveTicket1.png" />
 <figcaption>
-<p><span class="caption-text"><em>Active 811 Ticket</em></span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+<p><span class="caption-text"><em>Active 811 Ticket</em></span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
 </figcaption>
 </figure>
+</section>
+<section id="my-tickets">
+<h2>My Tickets<a class="headerlink" href="#my-tickets" title="Link to this heading"></a></h2>
+<p>Scroll down to see a list of your tickets. Once you add or edit a feature, that ticket will appear in your <strong>My Tickets</strong> list. If you want to remove a ticket from this list, you must first remove any features you have added to the ticket. This action cannot be undone.</p>
 </section>
 <section id="bookmarks">
 <h2>Bookmarks<a class="headerlink" href="#bookmarks" title="Link to this heading"></a></h2>
-<p>You can add a <strong>bookmark</strong> to this ticket by clicking the <strong>Bookmark</strong> option. This adds it to your <strong>My Tickets</strong> list where you can save tickets and features for easy access. You can remove the bookmark by clicking the bookmark icon to the right of the ticket or feature.</p>
-<figure class="align-default" id="id2">
+<p>If you haven’t edited a ticket, you can still add it to your list of tickets and easily return to it, by clicking <strong>Bookmark</strong>. You can remove the bookmark by clicking the icon to the right of the ticket or feature.</p>
+<figure class="align-default" id="id4">
 <img alt="Bookmarked Ticket" class="with-border" src="_images/D-MyTickets1.png" />
 <figcaption>
-<p><span class="caption-text"><em>Bookmarked Ticket</em></span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+<p><span class="caption-text"><em>Bookmarked Ticket</em></span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
 </figcaption>
 </figure>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Click anywhere on the map to close search and increase your viewing area.</p>
+</div>
 </section>
 <section id="basemaps">
 <h2>Basemaps<a class="headerlink" href="#basemaps" title="Link to this heading"></a></h2>
-<p>By default your ticket opens up in the <strong>OpenStreetMap</strong> basemap. Use the <strong>Basemap</strong> icon to select from the list of available map styles.</p>
-<figure class="align-default" id="id3">
+<p>By default your ticket opened up in the <strong>OpenStreetMap</strong> basemap. Use the <strong>Basemap</strong> icon to select from the list of other available map styles:</p>
+<ul class="simple">
+<li><p>Aerial</p></li>
+<li><p>Topo</p></li>
+<li><p>Topo Imagery</p></li>
+</ul>
+<figure class="align-default" id="id5">
 <img alt="Basemap options" class="with-border" src="_images/D-Basemaps.png" />
 <figcaption>
-<p><span class="caption-text"><em>Basemap options</em></span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
-</figcaption>
-</figure>
-</section>
-<section id="zoom-to-location">
-<h2>Zoom to location<a class="headerlink" href="#zoom-to-location" title="Link to this heading"></a></h2>
-<p>If you are on location at the dig site, click the <strong>Location</strong> map icon in the bottom left of the screen. This will zoom into the ticket boundaries for a close up look at the features. You can also zoom in or out by using the <strong>CTRL</strong> and holding down the mouse button to select the specific zoom that works for your ticket.</p>
-<div class="admonition caution">
-<p class="admonition-title">Caution</p>
-<p>When using FDC from an office, be aware that the location detected may not be your actual location, but the location of elements of your IT infrastrucucture. One option to avoid confusion is to turn off location in Settings.</p>
-</div>
-</section>
-<section id="add-edit-features">
-<h2>Add/Edit Features<a class="headerlink" href="#add-edit-features" title="Link to this heading"></a></h2>
-<p>To add a new or edit an existing feature for this ticket, select the <strong>Add/Edit Features</strong> or pencil icon from the toolset. FDC automatically captures your location, but you can toggle <strong>Hide Current Location</strong> if you are not at the dig site. Define the information needed to capture a new feature:</p>
-<ul class="simple">
-<li><p><strong>Geometry Type</strong> you want to add: a point, a polygon, or a line.</p></li>
-<li><p>Choose the appropriate <strong>Feature Class</strong> such as Reference, Electrical, etc.</p></li>
-<li><p>A <strong>Label</strong> that will identify this feature in the future.</p></li>
-<li><p><strong>Notes</strong> to describe the feature you are adding.</p></li>
-</ul>
-</section>
-<section id="draw-feature">
-<h2>Draw Feature<a class="headerlink" href="#draw-feature" title="Link to this heading"></a></h2>
-<p>Once you click the <strong>Draw Feature</strong> button you are in the drawing mode. Click on the map at the site of the feature.</p>
-<ul class="simple">
-<li><p>For a <strong>point</strong>, click again to create the point.</p></li>
-<li><p>For a <strong>line</strong>, click once, then drag to the end of the line and click again.</p></li>
-<li><p>For a <strong>polygon</strong>, click at each change in direction and then double click to close the polygon.</p></li>
-</ul>
-<p>To edit the feature you created, double click on it. It will turn yellow, then you can select and drag lines or points or corners of the polygon.</p>
-<p>You can <strong>Clear the drawing</strong> to start over, or if finished, select <strong>Save Feature</strong>.</p>
-<figure class="align-default" id="id4">
-<img alt="Save Features" class="with-border" src="_images/D-SaveFeature.png" />
-<figcaption>
-<p><span class="caption-text"><em>Save Feature</em></span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
-</figcaption>
-</figure>
-</section>
-<section id="document-manager">
-<h2>Document Manager<a class="headerlink" href="#document-manager" title="Link to this heading"></a></h2>
-<p>You can collect photos, video, and other document types and associate them with your active ticket. Click <strong>Upload Files</strong> to select one or more documents. All attached documents will be displayed in the Document Manager. You can add as many documents as you need or delete older unneeded files.</p>
-<figure class="align-default" id="id5">
-<img alt="Document Manager" class="with-border" src="_images/D-DocManager.png" />
-<figcaption>
-<p><span class="caption-text"><em>Document Manager</em></span><a class="headerlink" href="#id5" title="Link to this image"></a></p>
+<p><span class="caption-text"><em>Basemap options</em></span><a class="headerlink" href="#id5" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 </section>
 <section id="layers">
 <h2>Layers<a class="headerlink" href="#layers" title="Link to this heading"></a></h2>
-<p>You can turn off one or more layers to focus on a particular type of feature.</p>
+<p>By default you see all ticket features. You can select <strong>Layers</strong> to hide any <strong>User Features</strong> you added, allowing you to focus on the features from the 811 ticket. Select user features again to make them visible again.</p>
 <figure class="align-default" id="id6">
 <img alt="Layers" class="with-border" src="_images/D-Layers.png" />
 <figcaption>
 <p><span class="caption-text"><em>Layers</em></span><a class="headerlink" href="#id6" title="Link to this image"></a></p>
 </figcaption>
 </figure>
+</section>
+<section id="zoom-to-location">
+<h2>Zoom to location<a class="headerlink" href="#zoom-to-location" title="Link to this heading"></a></h2>
+<p>If you are on location at the dig site, click the <strong>Location</strong> map icon in the bottom left of the screen. This will zoom into the ticket boundaries for a close up look at the features. You can zoom in or out using your mouse wheel to select the specific zoom that works for you.</p>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>When using FDC from an office, be aware that the location detected may not be your actual location, but the location of elements of your IT infrastrucucture.</p>
+</div>
+</section>
+<section id="add-edit-features">
+<h2>Add/Edit Features<a class="headerlink" href="#add-edit-features" title="Link to this heading"></a></h2>
+<p>To add new or edit existing features for this ticket that only you can see, select the <strong>Add/Edit Features</strong> or pencil icon from the toolset. Define the information needed to capture a new feature:</p>
+<ul class="simple">
+<li><p><strong>Geometry Type</strong> you want to add: a point, a polygon, or a line.</p></li>
+<li><p>Choose the appropriate <strong>Feature Class</strong> such as Reference, Electrical, etc.</p></li>
+<li><p>Create a <strong>Label</strong> that will identify this feature in the future.</p></li>
+<li><p>It is always helpful to include <strong>Notes</strong> to describe the feature you are adding.</p></li>
+</ul>
+<p>FDC automatically shows your current location if you allowed this in your computer’s settings. Toggle it off with the <strong>Hide Current Location</strong> button.</p>
+</section>
+<section id="draw-feature">
+<h2>Draw Feature<a class="headerlink" href="#draw-feature" title="Link to this heading"></a></h2>
+<p>Once you click the <strong>Draw Feature</strong> button you are in the drawing mode. Click on the map at the site of the feature you want to add.</p>
+<ul class="simple">
+<li><p>For a <strong>point</strong>, click again to create the point.</p></li>
+<li><p>For a <strong>line</strong>, click once, then drag to the end of the line and click again.</p></li>
+<li><p>For a <strong>polygon</strong>, click at each change in direction and then double click to close the polygon.</p></li>
+</ul>
+<p>To edit a feature you created, double click on it. It will turn yellow, then you can select and drag lines or points or corners of the polygon.</p>
+<p>You can <a href="#id1"><span class="problematic" id="id2">**</span></a>Clear the drawing**if you need to start over.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Don’t forget, when you’re finished, select <strong>Save Feature</strong>.</p>
+</div>
+<figure class="align-default" id="id7">
+<img alt="Save Features" class="with-border" src="_images/D-SaveFeature.png" />
+<figcaption>
+<p><span class="caption-text"><em>Save Feature</em></span><a class="headerlink" href="#id7" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="upload-kml">
+<h2>Upload KML<a class="headerlink" href="#upload-kml" title="Link to this heading"></a></h2>
+<p>If you have feature data in a Keyhole Markup Language (KML), you can upload it to FDC to create a new feature. A KML file is an XML-based file format used for displaying geographic data on 2D and 3D maps.</p>
+</section>
+<section id="document-manager">
+<h2>Document Manager<a class="headerlink" href="#document-manager" title="Link to this heading"></a></h2>
+<p>You can collect photos, video, and other document types and associate them with your active ticket. Click <strong>Upload Files</strong> to select one or more documents. All attached documents will be displayed in the <strong>Document Manager</strong> until you remove them. Only you can view these documents. You can add as many documents as you need or delete older unneeded files.</p>
+<figure class="align-default" id="id8">
+<img alt="Document Manager" class="with-border" src="_images/D-DocManager.png" />
+<figcaption>
+<p><span class="caption-text"><em>Document Manager</em></span><a class="headerlink" href="#id8" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="new-811-ticket">
+<h2>New 811 Ticket<a class="headerlink" href="#new-811-ticket" title="Link to this heading"></a></h2>
+<p>You can use FDC to link to Gopher State One Call (GSOC) and create a new ticket. Click the plus sign to login into GSOC and create a ticket. Go back to FDC by clicking the back arrow in your browser to return to fdc.sharedgeo.net</p>
+<figure class="align-default" id="id9">
+<img alt="Open a new ticket in GSOC" class="with-border" src="_static/D-OpenNewTicketGSOC.png.png" />
+<figcaption>
+<p><span class="caption-text"><em>Create a new 811 Ticket</em></span><a class="headerlink" href="#id9" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="report-a-field-strike">
+<h2>Report a Field Strike<a class="headerlink" href="#report-a-field-strike" title="Link to this heading"></a></h2>
+<p>When a field strike occurs, it’s important to report the damage as soon as possible. Click on the hazard icon to get the information you need to quickly contact GSOC.</p>
+<figure class="align-default" id="id10">
+<img alt="Report a strike" class="with-border" src="_static/D-OpenNewTicketGSOC.png.png" />
+<figcaption>
+<p><span class="caption-text"><em>Info to report a strike</em></span><a class="headerlink" href="#id10" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="documentation">
+<h2>Documentation<a class="headerlink" href="#documentation" title="Link to this heading"></a></h2>
+<p>You can access the FDC user guide by clicking on the information icon. Use your browser back button to return to fdc.sharedgeo.org.</p>
+<figure class="align-default" id="id11">
+<img alt="User Guide" class="with-border" src="_images/D-Documentation.png" />
+<figcaption>
+<p><span class="caption-text"><em>FDC User Guide</em></span><a class="headerlink" href="#id11" title="Link to this image"></a></p>
+</figcaption>
+</figure>
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
 <p>The FDC application is designed to <strong>supplement</strong> your 811 ticket. Not all utility information has been shared and some features in your ticket boundary may not be shown.</p>
 </div>
-<p>Last Updated: Sep 30, 2025</p>
+<p>Last Updated: Nov 07, 2025</p>
 </section>
 </section>
 
