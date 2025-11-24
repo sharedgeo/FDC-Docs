@@ -88,7 +88,7 @@ Once you click the **Draw Feature** button you are in the drawing mode. Click on
 
 To edit a feature you created, double click on it. It will turn yellow, then you can select and drag lines or points or corners of the polygon.
 
-You can **Clear the drawing**if you need to start over. 
+You can **Clear the drawing** if you need to start over. 
 
 
 .. note::
@@ -120,7 +120,7 @@ New 811 Ticket
 
 You can use FDC to link to Gopher State One Call (GSOC) and create a new ticket. Click the plus sign to login into GSOC and create a ticket. Go back to FDC by clicking the back arrow in your browser to return to fdc.sharedgeo.net 
 
-.. figure:: /_static/D-OpenNewTicketGSOC.png.png
+.. figure:: /_static/D-OpenNewTicketGSOC.png
    :alt: Open a new ticket in GSOC
    :class: with-border
 
@@ -131,7 +131,7 @@ Report a Field Strike
 
 When a field strike occurs, it's important to report the damage as soon as possible. Click on the hazard icon to get the information you need to quickly contact GSOC.
 
-.. figure:: /_static/D-OpenNewTicketGSOC.png.png
+.. figure:: /_static/D-Reportastrike.png
    :alt: Report a strike
    :class: with-border
 

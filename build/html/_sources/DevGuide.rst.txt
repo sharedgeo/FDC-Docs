@@ -10,7 +10,7 @@ Building
 --------
 
 	docker-compose build
-	  or
+	or
 	podman-compose build
 
 Note: The `postgis:17-3.5` image isn't available on arm64 and needs to be built on that platform.
@@ -24,14 +24,14 @@ Starting
 --------
 
 	docker-compose up -d
-	  or
+	or
 	podman-compose up -d
 
 Stopping
 --------
 
 	docker-compose down
-	  or
+	or
 	podman-compose down
 
 Endpoints
