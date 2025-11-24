@@ -1,12 +1,12 @@
-.. Field Data Collection documentation master file, created by
+.. Field Data Collector documentation master file, created by
    sphinx-quickstart on Fri Jul  4 10:07:23 2025.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Field Data Collection Documentation
+Field Data Collector Documentation
 ===================================
 
-Field Data Collection (FDC) is designed to support locators, engineers, excavators, and emergency response personnel with critical information on the dig site. FDC works in partnership with FuzionView to display 811 dig tickets at your location. While FuzionView is focused on pulling in all the utility infrastructure data available for an 811 ticket, FDC is geared towards collecting new GIS points and supporting documentation and sending them back to the data providers. FDC supports critical process such as reporting a strike when a dig incident occurs. To get started, select the documentation that is right for you:
+Field Data Collector (FDC) is designed to support locators, engineers, excavators, and emergency response personnel with critical information on the dig site. FDC works in partnership with FuzionView to display 811 dig tickets at your location. While FuzionView is focused on pulling in all the utility infrastructure data available for an 811 ticket, FDC is geared towards collecting new GIS points and supporting documentation and sending them back to the data providers. FDC supports critical process such as reporting a strike when a dig incident occurs. To get started, select the documentation that is right for you:
 
 | :ref:`Getting Started` Quick Start Guide for all new users.
 | :ref:`FDC Toolset` Guide for locators, excavators, engineers, and emergency response personnel.

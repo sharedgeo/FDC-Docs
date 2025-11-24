@@ -1,6 +1,6 @@
-About Field Data Collection
+About Field Data Collector
 ============================
-Field Data Collection (FDC) provides geospatial mapping technology for use at a dig site to review or create a map of underground utilities. Excavators, engineering design teams, facility operators, locators, and emergency response teams will be able to use FDC on current or future construction sites. Emergency response teams can quickly gather critical information at a strike location. 
+Field Data Collector (FDC) provides geospatial mapping technology for use at a dig site to review or create a map of underground utilities. Excavators, engineering design teams, facility operators, locators, and emergency response teams will be able to use FDC on current or future construction sites. Emergency response teams can quickly gather critical information at a strike location. 
 
 FAQ
 ^^^^
@@ -14,7 +14,7 @@ FAQ
 Background
 ^^^^^^^^^^^
 
-During development of the FuzionView product, the need for a field based GIS data collection tool became apparent. Field Data Collection (FDC) works with the FuzionView software which aggregates all utility location data (GIS) into a single map “on the fly”.  
+During development of the FuzionView product, the need for a field based GIS data collection tool became apparent. Field Data Collector (FDC) works with the FuzionView software which aggregates all utility location data (GIS) into a single map “on the fly”.  
 
 Contact Us
 ^^^^^^^^^^^

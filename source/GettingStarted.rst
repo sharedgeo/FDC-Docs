@@ -1,9 +1,9 @@
 Getting Started
 =================
 
-Field Data Collection (FDC) is a map based application that allows you to create, view, and annotate the boundaries for a current or future 811 dig site. The audience for this documentation includes excavators, locators, engineers, and emergency response teams who may utilize mobile GIS data collection and mapping to perform critical tasks.
+Field Data Collector (FDC) is a map based application that addresses the inefficiencies in current excavation and utility locating processes, filling the need for GNSS-enabled devices to streamline tracking and documentation. FDC aims to support excavators, locators, engineers, and emergency responders by providing a platform to collect critical dig site information. FDC complements the Fusionview application which displays 811 dig tickets and GIS data. FDC allows users to add, edit, and document features within the boundaries of the 811 ticket. FDC helps to reduce silos, minimize damage risk, increase efficiency, and enhance communication in utility management.
 
-When you open FDC, select the **Log In** button.
+Open FDC and select the **Log In** button.
 .. update all images
 
 .. figure:: /_static/D-LandingPage1.png
@@ -15,7 +15,7 @@ When you open FDC, select the **Log In** button.
 Register and Log In
 ^^^^^^^^^^^^^^^^^^^^
 
-If this is your first visit to FDC, click the **Register** link below the sign in form. Enter your information and select **Register**.
+If this is your first time using FDC, click the **Register** link below the sign in form. Enter your information and select **Register**.
 
 .. figure:: /_static/D-Register1.png
    :alt: Register

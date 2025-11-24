@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Field Data Collection'
+project = 'Field Data Collector'
 copyright = '2025, SharedGeo'
 author = 'SharedGeo'
 release = '1.0'
