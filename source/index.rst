@@ -24,6 +24,7 @@ Please email info@sharedgeo.org with your feedback.
 
    GettingStarted
    FDCToolset
+   Videos
    SystemAdmin
    DevGuide
    About
