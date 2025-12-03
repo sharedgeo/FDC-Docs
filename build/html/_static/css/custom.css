@@ -87,14 +87,15 @@ color: #FFFFFF; /* Black */
     background-color: #4992c4;  /* medium blue  */
 }
 
-video {
+.sphinx-video video {
     width: 100% !important;
     height: auto !important;
     max-height: 75vh;
     display: block;
     margin: 2rem auto;
-    border-radius: 8px;          /* nice rounded corners */
-    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+    background: #000;
 }
 
 .lightbox-overlay {
