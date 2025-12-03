@@ -46,6 +46,9 @@ You can now **Log In**.
 
    *FDC Login*
 
+Registration video
+^^^^^^^^^^^^^^^^^^^^
+
 .. video:: /_static/A2-Registration.mov
    :width: 640
    :height: 360
