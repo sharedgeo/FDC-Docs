@@ -93,9 +93,9 @@ color: #FFFFFF; /* Black */
     max-height: 75vh;
     display: block;
     margin: 2rem auto;
-    border-radius: 10px;
-    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
-    background: #000;
+    border-radius: 1px;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.15);
+    background: #ffffff;
 }
 
 .lightbox-overlay {
