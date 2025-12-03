@@ -46,10 +46,10 @@ You can now **Log In**.
 
    *FDC Login*
 
-.. video:: /_static/A0-Registration.mov
+.. video:: /_static/A2-Registration.mov
    :width: 640
    :height: 360
-   
+
 Tools
 ^^^^^^
 Once you are logged in, you see the FDC Toolset, including 2 inactive options:
