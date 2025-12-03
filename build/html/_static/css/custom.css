@@ -88,9 +88,8 @@ color: #FFFFFF; /* Black */
 }
 
 .sphinx-video video {
-    width: 100% !important;
+    width: 50% !important;
     height: auto !important;
-    max-height: 75vh;
     display: block;
     margin: 2rem auto;
     border-radius: 1px;
