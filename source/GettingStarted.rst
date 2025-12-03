@@ -1,7 +1,7 @@
 Getting Started
 =================
 
-.. video:: /_static/A2-Registration
+.. video:: /_static/A2-Registration.mov
    :width: 100%
    :height: auto
 
