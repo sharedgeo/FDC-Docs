@@ -55,7 +55,7 @@ Once you are logged in, you see the FDC Toolset, including 2 inactive options:
 * Logout
 * Layers
 * Basemaps
-* Search
+* Search for Ticket
 * *Add/Edit features*
 * *Manage documents*
 * Strike reporting
