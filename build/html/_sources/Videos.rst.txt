@@ -2,3 +2,7 @@ Video Guides
 =============
 
 .. video:: /_static/A2-Registration.mov
+   :align: center
+   :caption: Getting Started with Registration
+   :width: 400
+   :figwidth: 80%
