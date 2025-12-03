@@ -2,6 +2,14 @@ Getting Started
 =================
 
 .. video:: /_static/A2-Registration.mov
+   width: 100% !important;
+   height: auto !important;
+   max-height: 75vh;
+   display: block;
+   margin: 2rem auto;
+   border-radius: 10px;
+   box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+   background: #000;
 
 Field Data Collector (FDC) is a map based application that addresses the inefficiencies in current excavation and utility locating processes, filling the need for GNSS-enabled devices to streamline tracking and documentation. FDC aims to support excavators, locators, engineers, and emergency responders by providing a platform to collect critical dig site information. FDC complements the Fusionview application which displays 811 dig tickets and GIS data. FDC allows users to add, edit, and document features within the boundaries of the 811 ticket. FDC helps to reduce silos, minimize damage risk, increase efficiency, and enhance communication in utility management.
 
