@@ -88,7 +88,7 @@ color: #FFFFFF; /* Black */
 }
 
 video {
-    width: 110% !important;
+    width: 90% !important;
     height: auto !important;
     max-height: 75vh;
     display: block;
