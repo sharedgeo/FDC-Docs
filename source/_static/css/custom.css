@@ -30,10 +30,7 @@
     color: #ffffff; /* Optionally, change the text color on hover */
 }
 
-/* Change the text color of the left sidebar menu */
-color: #FFFFFF; /* Black */
 .caption span.caption-text { 
-/*    color: #000000; /* Black */
     color: #ffffff; /* White */
 }
 
