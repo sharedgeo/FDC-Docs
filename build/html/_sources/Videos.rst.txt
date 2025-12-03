@@ -1,12 +1,6 @@
 Video Guides
 =============
 
-.. video:: /_static/A2-Registration.mov
-   :align: center
-   :caption: Getting Started with Registration
-   :width: 400
-   :figwidth: 80%
-
 .. video:: /_static/A1-Intro.mov
    :align: center
    :caption: Introduction to Field Data Collector
