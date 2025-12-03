@@ -87,7 +87,7 @@ color: #FFFFFF; /* Black */
     background-color: #4992c4;  /* medium blue  */
 }
 
-.sphinx-video video {
+.sphinx-video {
     width: 50% !important;
     height: auto !important;
     display: block;
