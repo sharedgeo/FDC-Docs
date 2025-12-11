@@ -12,18 +12,18 @@ Configuration
 
 *   Rename `env_example` to `.env` and fill in the required environment variables:
 
-    ```bash
-    PG_DB=
-    PG_USER=
-    PG_PASS=
-    PG_HOST=
-    PG_PORT=5432
+    ..code::
+        bash
+        PG_DB=
+        PG_USER=
+        PG_PASS=
+        PG_HOST=
+        PG_PORT=5432
 
-    OIDC_ISSUER_URL=
-    OIDC_API_AUDIENCE
-    OIDC_JWKS_URL=
-    ```
-
+        OIDC_ISSUER_URL=
+        OIDC_API_AUDIENCE
+        OIDC_JWKS_URL=
+        
 Development
 ^^^^^^^^^^^^
 

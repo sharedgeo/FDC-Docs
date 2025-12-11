@@ -1,8 +1,8 @@
 FDC Toolset
 ============
 
-Search
-^^^^^^^^
+Search for a Ticket
+^^^^^^^^^^^^^^^^^^^^
 
 To get started, use **Search** to open an existing 811 ticket by entering the ticket number. Once you open your ticket the two inactive tools - Add/Edit Features and Manage documents tools - are enabled. Information about the ticket is displayed:
 
