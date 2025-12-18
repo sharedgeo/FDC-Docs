@@ -137,3 +137,8 @@ p.caption + p > em,  /* Targets the specific "Built with..." paragraph */
 footer .rst-footer-buttons ~ p em {  /* Alternative/more specific selector if needed */
     display: none !important;
 }
+
+/* Or hide the entire footer credits section: */
+footer .rst-footer-buttons + hr + p {
+    display: none;
+}
