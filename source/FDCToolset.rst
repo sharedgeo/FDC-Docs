@@ -18,9 +18,21 @@ Scroll down to see the **Features** that were in the 811 ticket. Features you ad
 
    *Active 811 Ticket*
 
+.. video:: /_static/A3-Search.mov
+   :align: center
+   :caption: Search for an 811 Ticket
+   :width: 700
+   :figwidth: 110%)
+
 My Tickets
 ^^^^^^^^^^^
 Scroll down to see a list of your tickets. Once you add or edit a feature, that ticket will appear in your **My Tickets** list. If you want to remove a ticket from this list, you must first remove any features you have added to the ticket. This action cannot be undone.
+
+.. video:: /_static/B4-MyTicketsList.mov
+   :align: center
+   :caption: Using the My Tickets List
+   :width: 700
+   :figwidth: 110%)
 
 Bookmarks
 ^^^^^^^^^^
@@ -36,6 +48,12 @@ If you haven't edited a ticket, you can still add it to your list of tickets and
 .. hint::
    Click anywhere on the map to close search and increase your viewing area.
 
+.. video:: /_static/A4-Bookmarks.mov
+   :align: center
+   :caption: Using Bookmarks
+   :width: 700
+   :figwidth: 110%)
+
 Basemaps
 ^^^^^^^^^
 By default your ticket opened up in the **OpenStreetMap** basemap. Use the **Basemap** icon to select from the list of other available map styles:
@@ -50,6 +68,12 @@ By default your ticket opened up in the **OpenStreetMap** basemap. Use the **Bas
 
    *Basemap options*
 
+.. video:: /_static/A6-Basemaps.mov
+   :align: center
+   :caption: Basemap Options
+   :width: 700
+   :figwidth: 110%)
+
 Layers
 ^^^^^^^
 By default you see all ticket features. You can select **Layers** to hide any **User Features** you added, allowing you to focus on the features from the 811 ticket. Select user features again to make them visible again.
@@ -60,23 +84,43 @@ By default you see all ticket features. You can select **Layers** to hide any **
 
    *Layers*
 
-Zoom to location
+.. video:: /_static/A5-Layers.mov
+   :align: center
+   :caption: View or Hide Layers
+   :width: 700
+   :figwidth: 110%)
+
+Navigation
 ^^^^^^^^^^^^^^^^^^
 If you are on location at the dig site, click the **Location** map icon in the bottom left of the screen. This will zoom into the ticket boundaries for a close up look at the features. You can zoom in or out using your mouse wheel to select the specific zoom that works for you.
+
+FDC automatically shows your current location if you allowed this in your computer's settings. Toggle it off with the **Hide Current Location** button.
 
 .. caution::
    When using FDC from an office, be aware that the location detected may not be your actual location, but the location of elements of your IT infrastrucucture. 
 
+.. video:: /_static/A7-Navigation.mov
+   :align: center
+   :caption: Navigation in FDC
+   :width: 700
+   :figwidth: 110%)
+
+
 Add/Edit Features
 ^^^^^^^^^^^^^^^^^^
 To add new or edit existing features for this ticket that only you can see, select the **Add/Edit Features** or pencil icon from the toolset. Define the information needed to capture a new feature:
+To add new or edit existing features for this ticket that only you can see, select the **Add/Edit Features** or pencil icon from the toolset. Define the information needed to capture a new feature:
 
-* **Geometry Type** you want to add: a point, a polygon, or a line. 
+* **Geometry Types** you want to add: a point, a polygon, or a line. 
 * Choose the appropriate **Feature Class** such as Reference, Electrical, etc.
 * Create a **Label** that will identify this feature in the future.
 * It is always helpful to include **Notes** to describe the feature you are adding.
 
-FDC automatically shows your current location if you allowed this in your computer's settings. Toggle it off with the **Hide Current Location** button.
+.. video:: /_static/A8-GeometryTypes.mov
+   :align: center
+   :caption: Supported Geometry Types
+   :width: 700
+   :figwidth: 110%)
 
 Draw Feature
 ^^^^^^^^^^^^^^
@@ -90,6 +134,11 @@ To edit a feature you created, double click on it. It will turn yellow, then you
 
 You can **Clear the drawing** if you need to start over. 
 
+.. video:: /_static/B1-AddFeature.mov
+   :align: center
+   :caption: Drawing a New Feature
+   :width: 700
+   :figwidth: 110%)
 
 .. note::
    Don't forget, when you're finished, select **Save Feature**. 
@@ -100,10 +149,21 @@ You can **Clear the drawing** if you need to start over.
    
    *Save Feature*
 
+.. video:: /_static/B2-EditFeature.mov
+   :align: center
+   :caption: Editing Saved Features
+   :width: 700
+   :figwidth: 110%)
+
 Upload KML
 ^^^^^^^^^^^
-
 If you have feature data in a Keyhole Markup Language (KML), you can upload it to FDC to create a new feature. A KML file is an XML-based file format used for displaying geographic data on 2D and 3D maps. 
+
+.. video:: /_static/B3-ImportExport.mov
+   :align: center
+   :caption: Importing and Exporting Features
+   :width: 700
+   :figwidth: 110%)
 
 Document Manager
 ^^^^^^^^^^^^^^^^^
@@ -114,6 +174,12 @@ You can collect photos, video, and other document types and associate them with 
    :class: with-border
 
    *Document Manager*
+
+.. video:: /_static/B5-DocumentMgr.mov
+   :align: center
+   :caption: Document Management
+   :width: 700
+   :figwidth: 110%)
 
 New 811 Ticket
 ^^^^^^^^^^^^^^^^
@@ -137,6 +203,12 @@ When a field strike occurs, it's important to report the damage as soon as possi
 
    *Info to report a strike*
 
+.. video:: /_static/B6-StrikeReport.mov
+   :align: center
+   :caption: Reporting a Strike
+   :width: 700
+   :figwidth: 110%)
+
 Documentation
 ^^^^^^^^^^^^^^
 
@@ -148,7 +220,19 @@ You can access the FDC user guide by clicking on the information icon. Use your 
 
    *FDC User Guide*
 
+.. video:: /_static/B9-UserGuide.mov
+   :align: center
+   :caption: The FDC User Guide
+   :width: 700
+   :figwidth: 110%)
+
 .. caution::
    The FDC application is designed to **supplement** your 811 ticket. Not all utility information has been shared and some features in your ticket boundary may not be shown.
+
+.. video:: /_static/C0-Summary.mov
+   :align: center
+   :caption: In Summary
+   :width: 700
+   :figwidth: 110%)
 
 Last Updated: |today|
