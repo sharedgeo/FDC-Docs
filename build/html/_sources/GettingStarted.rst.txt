@@ -6,8 +6,7 @@ Field Data Collector (FDC) is a map based application that addresses the ineffic
 .. video:: /_static/A1-Intro.mov
    :align: center
    :caption: Introduction to Field Data Collector
-   :width: 400
-   :figwidth: 80%)
+   :figwidth: 100%)
 
 Open FDC and select the **Log In** button.
 
@@ -51,6 +50,11 @@ You can now **Log In**.
    :class: with-border
 
    *FDC Login*
+
+.. video:: /_static/A2-Registration.mov
+   :align: center
+   :caption: Getting Started with Registration
+   :figwidth: 100%)
 
 Tools
 ^^^^^^
