@@ -131,3 +131,9 @@ video.video-with-border {
 video {
     border: 20px solid #000;
 }
+
+div.sphinxsignature,
+p.caption + p > em,  /* Targets the specific "Built with..." paragraph */
+footer .rst-footer-buttons ~ p em {  /* Alternative/more specific selector if needed */
+    display: none !important;
+}
