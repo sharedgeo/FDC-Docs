@@ -56,7 +56,8 @@ You can now **Log In**.
 .. video:: /_static/A2-Registration.mov
    :align: center
    :caption: Getting Started with Registration
-   :figwidth: 100%)
+   :width: 700
+   :figwidth: 110%)
 
 Tools
 ^^^^^^
