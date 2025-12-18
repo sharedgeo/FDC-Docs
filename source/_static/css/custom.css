@@ -31,7 +31,7 @@
 }
 
 .caption span.caption-text { 
-    color: #ffffff; /* White */
+   color: #ffffff; /* White */
 }
 
 .wy-nav-side caption-text a {
@@ -116,7 +116,18 @@ img {
     border-color: black;
 }
 
+:class: with-border
 img {
     max-width: 20%; /* Adjust this percentage as needed */
     height: auto; /* Maintain aspect ratio */
+}
+
+video.video-with-border {
+    border: 2px solid #000;  /* Adjust thickness, style, and color as needed */
+    border-radius: 8px;      /* Optional: rounded corners */
+    box-sizing: border-box;  /* Ensures border doesn't increase overall size */
+}
+
+video {
+    border: 2px solid #000;
 }
