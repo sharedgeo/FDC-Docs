@@ -6,7 +6,8 @@ Field Data Collector (FDC) is a map based application that addresses the ineffic
 .. video:: /_static/A1-Intro.mov
    :align: center
    :caption: Introduction to Field Data Collector
-   :width: 500)
+   :width: 500
+   :figwidth: 80%)
 
 Open FDC and select the **Log In** button.
 
