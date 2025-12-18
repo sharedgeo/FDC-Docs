@@ -123,11 +123,11 @@ img {
 }
 
 video.video-with-border {
-    border: 4px solid #000;  /* Adjust thickness, style, and color as needed */
+    border: 8px solid #000;  /* Adjust thickness, style, and color as needed */
     border-radius: 8px;      /* Optional: rounded corners */
     box-sizing: border-box;  /* Ensures border doesn't increase overall size */
 }
 
 video {
-    border: 4px solid #000;
+    border: 8px solid #000;
 }
