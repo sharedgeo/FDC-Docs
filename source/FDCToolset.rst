@@ -234,5 +234,6 @@ You can access the FDC user guide by clicking on the information icon. Use your 
    :caption: In Summary
    :width: 700
    :figwidth: 110%)
-
+   :class: with-border
+   
 Last Updated: |today|
