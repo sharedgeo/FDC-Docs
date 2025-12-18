@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Field Data Collector'
-copyright = '2025, SharedGeo'
+copyright = '2025, SharedGeo CC-BY-SA-4.0'
 author = 'SharedGeo'
 release = '1.0'
 
